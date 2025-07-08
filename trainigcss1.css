@@ -1,0 +1,360 @@
+.namesite {
+  text-align: left;
+  font-size: 150px;
+  font-weight: lighter;
+  margin: 40px 670px 40px 40px;
+  border-radius: 10px;
+}
+
+.vstup {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-left: 450px;
+  margin-right: 20px;
+}
+.services {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+.container {
+  width: 80%;
+  background-color: #222222;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+body {
+  background-image: url(gladkii-seryi-fon.jpg);
+  background-size: cover; /* растягивает на весь экран */
+  background-position: center; /* центрирует */
+  background-repeat: no-repeat; /* не повторяет */
+  background-attachment: fixed;
+  font-family: "Rubik", sans-serif;
+  font-size: auto;
+  color: #fff;
+}
+.gallery {
+  text-align: center;
+  margin: 20px 0;
+}
+.santech1,
+.santech2,
+.santech3,
+.santech4 {
+  width: 40%;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.santech1:hover,
+.santech2:hover,
+.santech3:hover,
+.santech4:hover {
+  transform: scale(1.05); /* увеличение при наведении */
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: #1e1e1e;
+  margin: 10px;
+  border-radius: 10px;
+}
+.contact {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.contact a {
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #2d6a9c; /* можно использовать твой фирменный цвет */
+}
+.reviews {
+  color: #eaeaea;
+  padding: 10px;
+  margin: 10px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.review {
+  background-color: #2d2d2d;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.review p {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.review h4 {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #aaa;
+}
+.about {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto 1.2rem;
+}
+.price-cards {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.price-cards h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #2d2d2d;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.card .price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2d6a9c;
+}
+.faq {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.faq-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #444;
+}
+
+.faq-question {
+  display: block;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #3b3b3b;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #4b4b4b;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding: 0 1rem;
+  color: #ccc;
+}
+
+.faq-item input[type="checkbox"] {
+  display: none;
+}
+
+.faq-item input[type="checkbox"]:checked ~ .faq-answer {
+  max-height: 200px;
+  padding: 1rem;
+}
+.socials {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.socials h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 2rem;
+}
+
+.social-icons a {
+  color: #f0f0f0;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #2d6a9c; /* фирменный лофт-цвет */
+}
+.callback {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.callback h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.callback form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.callback input,
+.callback textarea {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.callback input::placeholder,
+.callback textarea::placeholder {
+  color: #999;
+}
+
+.callback button {
+  padding: 0.9rem;
+  background-color: #2d6a9c;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.callback button:hover {
+  background-color: #1e4a70;
+}
+.site-footer {
+  background-color: #222222;
+  color: #aaa;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  border-top: 1px solid #2d2d2d;
+}
